@@ -1,5 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  border: 5px solid black;
   font-family: sans-serif;
   line-height: 1.4;
 }
@@ -7,30 +11,47 @@ body {
 h2 {
   background-color: #f7f7f7;
   font-size: 22px;
+  padding: 15px;
   text-align: center;
   text-transform: uppercase;
 }
 
 h4 {
+  margin-top: 30px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
 ul {
   list-style: square;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 button {
   background-color: black;
   border: none;
+  border-top: 4px solid black;
   color: #f7f7f7;
   cursor: pointer;
   font-size: 20px;
+  padding: 15px;
   text-transform: uppercase;
+  width: 100%;
 }
 
 button:hover {
   background-color: initial;
   color: black;
+}
+
+.container {
+  border: 5px solid black;
+  margin: 50px auto;
+  width: 825px;
 }
 
 .price {
@@ -42,6 +63,7 @@ button:hover {
   color: #777777;
   font-size: 12px;
   font-weight: bold;
+  margin-bottom: 15px;
   text-transform: uppercase;
 }
 
