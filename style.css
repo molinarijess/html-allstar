@@ -52,6 +52,20 @@ button:hover {
   border: 5px solid black;
   margin: 50px auto;
   width: 825px;
+  position: relative;
+}
+
+.sale-label {
+  background-color: #ec302f;
+  color: #fff4f5;
+  font-size: 12px;
+  font-weight: bold;
+  left: -38px;
+  letter-spacing: 3px;
+  padding: 7px 15px;
+  position: absolute;
+  text-transform: uppercase;
+  top: -17px;
 }
 
 .price {
@@ -79,4 +93,41 @@ button:hover {
 .more-info:active,
 .more-info:hover {
   text-decoration: none;
+}
+
+.product-color {
+  margin: 30px 0;
+}
+
+.product-color span {
+  margin-right: 10px;
+}
+.color1 {
+  background-color: #000;
+  padding: 1px 11px;
+}
+
+.color2 {
+  background-color: #2f6ee1;
+  padding: 1px 11px;
+}
+
+.color3 {
+  background-color: #ec302f;
+  padding: 1px 11px;
+}
+
+.color4 {
+  background-color: #efbf1e;
+  padding: 1px 11px;
+}
+
+.color5 {
+  background-color: #90cb1f;
+  padding: 1px 11px;
+}
+
+.color6 {
+  background-color: #875214;
+  padding: 1px 11px;
 }
