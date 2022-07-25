@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -17,7 +18,7 @@ h2 {
 }
 
 h4 {
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
@@ -55,6 +56,35 @@ button:hover {
   position: relative;
 }
 
+.row {
+  display: flex;
+  gap: 40px;
+}
+
+.row-info {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.row-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shipping-info {
+  color: #777777;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .sale-label {
   background-color: #ec302f;
   color: #fff4f5;
@@ -68,21 +98,9 @@ button:hover {
   top: -17px;
 }
 
-.price {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.shipping-info {
-  color: #777777;
-  font-size: 12px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
 .product-info {
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .more-info:link,
@@ -96,7 +114,7 @@ button:hover {
 }
 
 .product-color {
-  margin: 30px 0;
+  margin-top: 30px;
 }
 
 .product-color span {
@@ -130,4 +148,9 @@ button:hover {
 .color6 {
   background-color: #875214;
   padding: 1px 11px;
+}
+
+.row-details {
+  flex: 1;
+  margin-top: 20px;
 }
